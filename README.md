@@ -91,4 +91,3 @@ Basic arithmetic with the quantum fourier transform (QFT) (Pennylane Tutorial)
 
 This project demonstrates the practical application of quantum computing principles, specifically Grover's algorithm, in solving complex mathematical problems like integer factorization. By leveraging quantum parallelism and interference effects, Grover's algorithm offers a promising approach to addressing computationally intensive tasks traditionally reserved for classical algorithms.
 
-For further exploration and improvement, consider experimenting with larger bi-prime numbers and optimizing quantum circuit implementations.
