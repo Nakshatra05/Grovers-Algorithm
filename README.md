@@ -26,7 +26,7 @@ pip install qiskit numpy matplotlib
 1. Clone the repository:
 
 ```
-git clone https://github.com/yourusername/Grovers_Factorization_Project.git
+git clone https://github.com/Nakshatra05/Grovers-Algorithm.git
 cd Grovers_Factorization_Project
 ```
 
