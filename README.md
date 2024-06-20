@@ -1,28 +1,19 @@
 # Using Grover’s Algorithm for Factorization of Bi-primes
 
 ## Introduction
-This project demonstrates the use of Grover’s algorithm to factorize bi-prime numbers. Grover's algorithm, known for its quadratic speedup in searching unsorted databases, can be adapted for factorization problems. Here, we apply Grover's algorithm to find the prime factors \( p \) and \( q \) of a given bi-prime number \( N = p \times q \).
+Factoring large composite numbers into their prime factors is a computationally challenging problem with significant implications for cryptography and information security. Traditional algorithms such as RSA encryption rely on the difficulty of factoring large numbers into their primes for their security.
+
+Grover's algorithm, a quantum search algorithm, offers a quadratic speedup over classical algorithms for unstructured search problems. While primarily known for its application in database search, Grover's algorithm has been adapted to address the problem of integer factorization, particularly for bi-prime numbers.
+
+This project demonstrates the implementation of Grover's algorithm using Qiskit, a quantum computing SDK for Python, to factorize bi-prime numbers into their prime components.
 
 ## Requirements
-To run the code in this repository, you need the following dependencies:
-- Qiskit
+To run this project, you need:
+- Python 3.7 or higher
+- Qiskit (version 0.32.0 or later)
 - numpy
 - matplotlib
 
-You can install these dependencies using pip:
+You can install Qiskit and other dependencies using pip:
 ```bash
-pip install -r requirements.txt
-
-
-### Instructions for Usage:
-
-- **Introduction**: Briefly describe the purpose and significance of the project.
-- **Requirements**: List necessary dependencies for running the code.
-- **Setup**: Provide instructions for cloning the repository and installing dependencies.
-- **Usage**: Guide users on how to open and run the Jupyter Notebook.
-- **File Descriptions**: Explain the purpose of each file in the repository.
-- **References**: Include links to relevant papers or tutorials that were used.
-- **Conclusion**: Summarize the project's findings and its potential implications.
-
-Customize the URLs, names, and descriptions according to your specific project details. This structure will help users understand and effectively use your repository for exploring Grover's algorithm in bi-prime factorization.
-
+pip install qiskit numpy matplotlib
