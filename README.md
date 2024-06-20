@@ -38,15 +38,15 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Open the Jupyter Notebook:
+- Open the Jupyter Notebook:
 
 ```
 jupyter notebook Grovers_Factorization.ipynb
 ```
 
-2. Execute each cell in the notebook sequentially to run the code.
+- Execute each cell in the notebook sequentially to run the code.
 
-3. Follow the instructions and explanations provided in the notebook.
+- Follow the instructions and explanations provided in the notebook.
 
 ## File Descriptions
 
@@ -62,35 +62,35 @@ jupyter notebook Grovers_Factorization.ipynb
 
 - **requirements.txt**: This file lists the Python dependencies required to run the project, ensuring compatibility with the specified versions of Qiskit, numpy, and matplotlib. It simplifies the installation process by allowing users to install all necessary packages using `pip install -r requirements.txt`.
 
+# Using Grover’s Algorithm for Factorization of Bi-primes
+
 ## Approach
 
 ### Quantum Circuit Components
-Quantum Fourier Transform (QFT):
-Implemented using controlled-phase gates and Hadamard gates.
-QFT and its inverse (QFT†) are crucial components in the oracle and Grover's algorithm.
 
-Multiplication Oracle:
-Constructed using controlled operations and QFT to check if the product of two numbers equals 
-𝑁
+#### Quantum Fourier Transform (QFT):
+- Implemented using controlled-phase gates and Hadamard gates.
+- QFT and its inverse (QFT†) are crucial components in the oracle and Grover's algorithm.
 
-Grover's Algorithm:
+#### Multiplication Oracle:
+- Constructed using controlled operations and QFT to check if the product of two numbers equals \( N \).
 
-Initializes quantum registers in superposition.
-Applies the multiplication oracle to search for factors of 
-𝑁
-Implements Grover's diffusion operator to amplify the correct solution.
+#### Grover's Algorithm:
+- Initializes quantum registers in superposition.
+- Applies the multiplication oracle to search for factors of \( N \).
+- Implements Grover's diffusion operator to amplify the correct solution.
 
-### Execution
-The project utilizes Qiskit's simulation capabilities (QASM simulator) to run Grover's algorithm.
-Measurement results are collected and analyzed to determine the prime factors of bi-prime numbers such as 35, 115, and 893.
+## Execution
+
+- The project utilizes Qiskit's simulation capabilities (QASM simulator) to run Grover's algorithm.
+- Measurement results are collected and analyzed to determine the prime factors of bi-prime numbers such as 35, 115, and 893.
 
 ## References
 
-Quantum Factoring Algorithm using Grover Search (S. Whitlock and T. D. Kieu)
-Quantum arithmetic with the Quantum Fourier Transform (Lidia Ruiz-Perez and Juan Carlos Garcia-Escartin)
-Basic arithmetic with the quantum fourier transform (QFT) (Pennylane Tutorial)
+- [Quantum Factoring Algorithm using Grover Search](https://arxiv.org/abs/2312.10054) (S. Whitlock and T. D. Kieu)
+- [Quantum arithmetic with the Quantum Fourier Transform](https://arxiv.org/abs/1411.5949) (Lidia Ruiz-Perez and Juan Carlos Garcia-Escartin)
+- [Basic arithmetic with the quantum Fourier transform (QFT)](https://pennylane.ai/qml/demos/tutorial_qft_arithmetics/) (Pennylane Tutorial)
 
 ## Conclusion
 
 This project demonstrates the practical application of quantum computing principles, specifically Grover's algorithm, in solving complex mathematical problems like integer factorization. By leveraging quantum parallelism and interference effects, Grover's algorithm offers a promising approach to addressing computationally intensive tasks traditionally reserved for classical algorithms.
-
