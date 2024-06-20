@@ -50,12 +50,17 @@ jupyter notebook Grovers_Factorization.ipynb
 
 ## File Descriptions
 
-Grovers_Factorization.ipynb: Jupyter Notebook containing the implementation of Grover's algorithm for factorization.
-grover.py: Python script defining functions to construct and run Grover's algorithm.
-oracle.py: Python script defining the multiplication oracle used in Grover's algorithm.
-qft.py: Python script defining Quantum Fourier Transform (QFT) functions.
-utils.py: Python script containing utility functions.
-requirements.txt: List of dependencies for easy installation.
+- **Grovers_Factorization.ipynb**: This Jupyter Notebook contains the implementation of Grover's algorithm specifically tailored for factorizing bi-prime numbers into their prime components using quantum computing principles with Qiskit.
+
+- **qft.py**: This Python script defines functions related to the Quantum Fourier Transform (QFT), which is a crucial component in Grover's algorithm. It includes functions for both the QFT and its inverse (QFT†), implemented using Qiskit for quantum circuit simulations.
+
+- **oracle.py**: This Python script defines the multiplication oracle used within Grover's algorithm. The oracle is constructed using controlled operations and Quantum Fourier Transform (QFT) techniques to verify whether the product of two numbers equals a given bi-prime number \( N \).
+
+- **grover.py**: This Python script defines functions that are essential for constructing and executing Grover's algorithm. It includes functions for initializing quantum registers, applying the multiplication oracle, implementing Grover's diffusion operator, and running the algorithm on Qiskit's quantum simulators.
+
+- **utils.py**: This Python script contains utility functions that support various tasks within the project. Utility functions include checking for prime numbers, finding factors of numbers, and verifying factorization results, aiding in the validation and verification steps of the algorithm's output.
+
+- **requirements.txt**: This file lists the Python dependencies required to run the project, ensuring compatibility with the specified versions of Qiskit, numpy, and matplotlib. It simplifies the installation process by allowing users to install all necessary packages using `pip install -r requirements.txt`.
 
 ## Approach
 
