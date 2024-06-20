@@ -67,14 +67,12 @@ QFT and its inverse (QFT†) are crucial components in the oracle and Grover's a
 Multiplication Oracle:
 Constructed using controlled operations and QFT to check if the product of two numbers equals 
 𝑁
-N.
 
 Grover's Algorithm:
 
 Initializes quantum registers in superposition.
 Applies the multiplication oracle to search for factors of 
 𝑁
-N.
 Implements Grover's diffusion operator to amplify the correct solution.
 
 ### Execution
