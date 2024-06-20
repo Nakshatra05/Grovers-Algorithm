@@ -62,8 +62,6 @@ jupyter notebook Grovers_Factorization.ipynb
 
 - **requirements.txt**: This file lists the Python dependencies required to run the project, ensuring compatibility with the specified versions of Qiskit, numpy, and matplotlib. It simplifies the installation process by allowing users to install all necessary packages using `pip install -r requirements.txt`.
 
-# Using Grover’s Algorithm for Factorization of Bi-primes
-
 ## Approach
 
 ### Quantum Circuit Components
